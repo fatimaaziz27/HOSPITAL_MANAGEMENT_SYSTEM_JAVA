@@ -6,3 +6,5 @@
 // Change a patient’s emergency status.
 // Show a menu and repeat until the user chooses to exit.
 
+import java.util.*;
+class JAVA{
