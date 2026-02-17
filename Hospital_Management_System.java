@@ -28,7 +28,7 @@ class JAVA{
             h1.chg_patients_emg();
             break;
     }
-    
+
     System.out.println("Do ypu want to continue (yes/no) ?");
     sc.nextLine();
     String choice = sc.nextLine().toLowerCase();
@@ -38,3 +38,10 @@ class JAVA{
     }
     }
 }
+
+class hospital {
+
+    HashMap<Integer, String> patient_names = new HashMap<>();
+    HashMap<Integer, Integer> patient_age = new HashMap<>();
+    HashMap<Integer, String> patient_disease = new HashMap<>();
+    HashMap<Integer, String> patient_emergency_status = new HashMap<>();
