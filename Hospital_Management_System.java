@@ -100,3 +100,19 @@ class hospital {
             System.out.println("Invalid ID");
         }
     }
+        void chg_patients_emg() {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter patient ID: ");
+        Integer id = sc.nextInt();
+        String emg = patient_emergency_status.get(id);
+        
+        if (emg.equals(true)) {
+                patient_emergency_status.put(id, "No");
+            }
+        else {
+            patient_emergency_status.put(id, "yes");
+            
+        }
+    }
+}
