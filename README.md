@@ -1,4 +1,4 @@
-## Hospital-Management-System
+## Hospital Management System
 
 A simple Java console-based application to manage hospital patient records using HashMap.
 
