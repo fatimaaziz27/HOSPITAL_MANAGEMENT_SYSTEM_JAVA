@@ -9,7 +9,9 @@
 import java.util.*;
 class JAVA{
     public static void main(String[]args){
-        hospital h1 = new hospital();
+        
+    hospital h1 = new hospital();
+
     while (true) {
     System.out.println("1.Add patient\n2.Display Info\n3.Change Patients Emergency");
 
@@ -32,11 +34,12 @@ class JAVA{
     System.out.println("Do ypu want to continue (yes/no) ?");
     sc.nextLine();
     String choice = sc.nextLine().toLowerCase();
+
     if (choice.equals("no")) {
         break;
     }
-    }
-    }
+}
+}
 }
 
 class hospital {
@@ -81,6 +84,7 @@ class hospital {
             System.out.println(patient_emergency_status);
         }
     }
+
     void display_info() {
 
         Scanner sc = new Scanner(System.in);
@@ -95,11 +99,11 @@ class hospital {
                             + "\nDisease: " + patient_disease.get(id)
                             + "\nEmergency Status: " + patient_emergency_status.get(id));
         }
-        
         else {
             System.out.println("Invalid ID");
         }
     }
+
         void chg_patients_emg() {
 
         Scanner sc = new Scanner(System.in);
