@@ -87,47 +87,6 @@ This project demonstrates the use of:
 
 ---
 
-## Data Structure Used
-
-The program uses **HashMap** to store patient details.
-
-```java
-HashMap<Integer, String> patient_names
-HashMap<Integer, Integer> patient_age
-HashMap<Integer, String> patient_disease
-HashMap<Integer, String> patient_emergency_status
-```
-
-* **Key → Patient ID**
-* **Value → Patient Details**
-
-This allows **fast search and retrieval of patient records**.
-
----
-
-## How to Run
-
-1. Install **Java JDK**
-2. Clone the repository
-
-```bash
-git clone https://github.com/your-username/hospital-management-system-java.git
-```
-
-3. Compile the program
-
-```bash
-javac JAVA.java
-```
-
-4. Run the program
-
-```bash
-java JAVA
-```
-
----
-
 ## Project Structure
 
 ```text
@@ -140,19 +99,3 @@ JAVA.java
     ├── display_info()
     └── chg_patients_emg()
 ```
-
----
-
-## Purpose
-
-The purpose of this project is to help beginners **practice Java programming, collections, and simple management systems**.
-
----
-
-## Author
-
-**Fatima Aziz**
-
----
-
-⭐ If you found this project helpful, consider giving the repository a **star on GitHub**.
